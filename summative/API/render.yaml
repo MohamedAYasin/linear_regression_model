@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: my-web-service
+    env: python
+    pythonVersion: 3.11
+
