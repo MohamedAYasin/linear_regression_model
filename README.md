@@ -43,7 +43,7 @@ cd into fastapi
 run `flutter run` to build the Flutter project.
 
 ## Model Overview
-This `diabetes` machine learning model predicts diabetes progression based on 10 medical features such as age, BMI, and blood pressure. It uses a linear regression algorithm to make the predictions. The model was trained using the scikit-learn `load_diabetes` dataset and is deployed as an API endpoint on Render.com. (https://linear-regression-b45r.onrender.com)
+This `diabetes` machine learning model predicts diabetes progression based on 10 medical features such as age, BMI, and blood pressure. It uses a linear regression algorithm to make the predictions. The model was trained using the scikit-learn `load_diabetes` dataset and is deployed as an API endpoint on Render.com. (https://linear-regression-b45r.onrender.com/predict)
 
 ## The Flutter App
 The Flutter app interacts with the deployed model through an HTTP POST request. Users input their medical data, including features like age, BMI, and blood pressure. The app sends these inputs to the model's endpoint, which then returns the predicted diabetes progression, displayed in the app. The app offers an intuitive interface for predicting diabetes progression. Users input their medical data, and with a button click, receive predictions about diabetes risk.
