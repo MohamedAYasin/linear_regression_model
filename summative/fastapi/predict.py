@@ -1,5 +1,5 @@
 from fastapi import FastAPI, HTTPException
-from pydantic import BaseModel, conlist
+from pydantic import BaseModel
 import numpy as np
 import joblib
 import uvicorn
@@ -7,9 +7,9 @@ import uvicorn
 # Initialize the FastAPI app
 app = FastAPI()
 
-# Define a request model with constraints
+# Define a request model
 class DiabetesFeatures(BaseModel):
-    features: conlist(float, min_items=10, max_items=10)  # Exactly 10 features
+    features: list[float]
 
 # Load the trained model
 try:
@@ -28,6 +28,13 @@ def predict(diabetes_features: DiabetesFeatures):
     try:
         # Extract features from the request
         features = np.array(diabetes_features.features).reshape(1, -1)
+        
+        # Check if there are exactly 10 features
+        if features.shape[1] != 10:
+            raise HTTPException(
+                status_code=400,
+                detail="Exactly 10 features are required."
+            )
         
         # Check if the features are within the valid range
         if not np.all((features >= 1) & (features <= 500)):
