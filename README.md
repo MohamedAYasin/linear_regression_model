@@ -1,6 +1,6 @@
 # Diabetes Prediction Model and App
 
-Welcome to this repository which will contain summative tasks for my ML Specialization. This repository contains Three Folders: a machine learning api that predicts diabetes using datasets from scikit-learn, a Flutter app that uses the api to predict diabetes and a folder for the Colab Notebooks on Univariate linear regression and multi-variate linear regression. 
+Welcome to this repository which will contain summative tasks for my ML Specialization. This repository contains a summative folder that holds Three Folders: a machine learning api that predicts diabetes using datasets from scikit-learn, a Flutter app that uses the api to predict diabetes and a folder for the Colab Notebooks on Univariate linear regression and multi-variate linear regression. 
 
 ## Screenshot of the Diabetes Prediction Flutter App
 
