@@ -68,4 +68,6 @@ You can test the API paltforms using Postman. Create a POST request, enter the U
 
 - [Mohamed Yasin](https://github.com/mohamedAYasin/).
 
+Also Shoutout to my instructor, Mr. Marvin Ogore - for his unwavering support and dedication to helping us become the best of the best.
+
 - © 2024 All rights reserved.
