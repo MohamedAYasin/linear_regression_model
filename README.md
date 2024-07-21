@@ -1,22 +1,19 @@
-# Diabetes Prediction Model and App
+# Table of Contents
 
-Welcome to this repository which will contain summative tasks for my ML Specialization. This repository contains Three Folders: a machine learning api that predicts diabetes using datasets from scikit-learn, a Flutter app that uses the api to predict diabetes and a folder for the Colab Notebooks on Univariate linear regression and multi-variate linear regression. 
-
-## Screenshot of the Diabetes Prediction Flutter App
-
-![app-photo](https://github.com/user-attachments/assets/84bb7c3d-c286-4cad-9600-d6f75b4e06f9)
-
-## Table of Contents
-
-- [Screenshots](#Screenshot of the Diabetes Prediction Flutter App)
+- [Introduction](#Intrduction)
 - [Repository Structure](#repository-structure)
 - [Requirements](#requirements)
 - [Setup and Installation](#setup-and-installation)
 - [Model Overview](#model-overview)
-- [Flutter App Overview](#The-flutter-app)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+- [Flutter App](#The-flutter-app)
+- [Screenshots](#Screenshot-of-the-Diabetes-Prediction-Flutter-App)
+- [Key Features](#Key-Features)
+- [Demo Video](#Demo-Video)
+- [Contributor](#contributor)
+
+# Introduction
+
+Welcome to this repository which will contain summative tasks for my ML Specialization. This repository contains a summative folder that holds Three Folders: a machine learning api that predicts diabetes using datasets from scikit-learn, a Flutter app that uses the api to predict diabetes and a folder for the Colab Notebooks on Univariate linear regression and multi-variate linear regression. 
 
 ## Repository Structure
 
@@ -56,6 +53,10 @@ Endpoint
 Testing
 
 You can test the API paltforms using Postman. Create a POST request, enter the URL above. In the body, select raw and JSON and enter the JSON object: { "features": [22.0, 33.0, 21.0, 44.0, 29.0, 45.0, 21.0, 99.0, 35.0, 21.0] } The response should be something like: { "prediction": 73467.34487944 }
+
+## Screenshot of the Diabetes Prediction Flutter App
+
+![app-photo](https://github.com/user-attachments/assets/84bb7c3d-c286-4cad-9600-d6f75b4e06f9)
 
 ### Key Features
 - Input fields for Age, BMI, Glucose Level, Blood Pressure, Total Cholesterol, Insulin, Triglycerides Level, High-Density Lipoproteins, Low-Density Lipoproteins, and Creatinine.
