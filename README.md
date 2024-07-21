@@ -8,7 +8,6 @@
 - [Flutter App](#The-flutter-app)
 - [Screenshots](#Screenshot-of-the-Diabetes-Prediction-Flutter-App)
 - [Key Features](#Key-Features)
-- [Demo Video](#Demo-Video)
 - [Contributor](#contributor)
 
 # Introduction
