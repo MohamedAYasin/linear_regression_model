@@ -1,1 +1,183 @@
-yes
+Summative Assignment
+
+Task 1: Linear Regression
+You will be working on a linear regression model in the following tasks:
+
+Creating and Optimizing a linear regression model using gradient descent.
+You have been provided a data set that will create a model that predicts TV sales.
+Please find all resources associated with this link - Please make a copy first.
+Inside you will find a notebook which has instructions.
+Make sure to note down all cells that require you to complete the code snippets. The notebook has unit tests that you will have to pass.
+The Notebook has 5 Exercises
+Create decision trees and random Forests models compare the Root Mean Squared Errors to the Linear regression model, and rank the models accordingly
+Here is a cheat sheet - Link
+Task 2: Create an API
+Create a function to make a prediction using a Linear regression model, that is a Python function as follows. Use Fast API to create an API endpoint and upload source code files to a free hosting platform (or paid where possible)
+
+Ensure that this task uses a different dataset that has multiple variables. Different from task 1.
+
+#import things. . . …..
+
+app = FastAPI(‘insert something here)
+
+@app.post(‘/predict’)
+
+def predict(*args, **kwargs):
+
+  #insert your code here
+
+  return prediction
+
+
+#replace *args and **kwargs where you deem necessary
+
+Task 3: Flutter app
+Use the API endpoint created in task 2,that is, url + path_to_predict on your flutter app.
+
+Your app  should have at least one 1page with the following:
+
+TextFields for inputting values needed for the prediction.
+A Button with the text "Predict".
+A display area for showing the predicted value or an error message if the values are out of range or if one or more expected values are missing.
+Submission Requirements:
+
+ 
+
+A GitHub link containing the notebook, API code files, and Flutter app with directories well labeled ** empty cell outputs on the notebook will be considered failed run outputs**
+On the README :
+Provide a publicly available API endpoint that returns predictions given input values. Tests will be assessed using Postman, alternatively, you can provide steps to access the API.
+A video demo of at most 2 minutes of the mobile app doing prediction cameras on.
+Note: Use a publicly routable URL, not localhost
+
+You can add your files inside the path of the repo:
+
+linear_regression_model/
+
+│
+
+├── summative/
+
+│   ├── linear_regression/
+
+│   │   ├── univariate.ipynb
+
+│   │   ├── multivariate.ipynb
+
+│   ├── API/
+
+│   │   ├── prediction.py
+
+│   │   ├── requirements.txt
+
+│   ├── FlutterApp/
+
+Rubric
+
+Summative - First Model Deployment
+Summative - First Model Deployment
+Criteria	Ratings	Pts
+This criterion is linked to a Learning OutcomeNOTEBOOK - Unit tests
+Passes all Unit tests in the notebook
+6 to >4.01 pts
+Excellent
+Passes unit tests
+4.01 to >3.0 pts
+Good
+Fails 2 or less unit tests
+3 to >0.0 pts
+Fair
+Fails more than 2 but passes more than 1 unit tests
+0 pts
+Poor
+Fails allunit tests
+6 pts
+This criterion is linked to a Learning OutcomeNOTEBOOK - Output from cells
+3 to >1.5 pts
+Excellent
+The output from ALL cells which print out an output is accurate and present in the submission
+1.5 to >0.5 pts
+Good
+The output from cells that print out an output have WARNINGS not ERRORS but generally correct output
+0.5 to >0.0 pts
+Fair
+The output from SOME cells (1 or more) which print out an output have error output
+0 pts
+Poor
+Missing all cell outputs
+3 pts
+This criterion is linked to a Learning OutcomeNOTEBOOK - Creates Models from Scratch
+6 pts
+Good
+Extra models were created alongside Regression model Specifically: Random Forest Decision trees
+3 pts
+Fair
+Missing implementation of 1 model Random Forest Decision trees
+0 pts
+Poor
+Missing implementation of the 2 extra models
+6 pts
+This criterion is linked to a Learning OutcomeNOTEBOOK - Comparison of Performance of Models
+5 pts
+Good
+Accurately compares models based on RMSE and ranks them correctly based on RMSE
+2.5 pts
+Fair
+Accurately compares models based on RMSE but ranks them incorrectly
+0 pts
+Poor
+Missing model comparison based on RMSE
+5 pts
+This criterion is linked to a Learning OutcomeAPI
+8 pts
+Excellent
+The following is present: 1. API endpoint for prediction 2. Public URL + Path 3. API returns predicted value 4. Code in the repo
+6 pts
+Good
+ONE of the following is present: 1. API endpoint for prediction 2. Public URL + Path 3. API returns predicted value 4. Code in the repo
+4 pts
+Fair
+TWO of the following is MISSING: 1. API endpoint for prediction 2. Public URL + Path 3. API returns predicted value 4. Code in the repo
+2 pts
+Poor
+THREE of the following is MISSING: 1. API endpoint for prediction 2. Public URL + Path 3. API returns predicted value 4. Code in the repo
+8 pts
+This criterion is linked to a Learning OutcomeMobile app
+8 pts
+Excellent
+App has : 1. A relevant prediction page 2. Text box matching the number of input data 3. Button 4. Output Display Field
+6 pts
+Good
+App is Missing ONE : 1. A relevant prediction page 2. Text box matching the number of input data 3. Button 4. Output Display Field
+4 pts
+Fair
+App Missing TWO of : 1. A relevant prediction page 2. Text box matching the number of input data 3. Button 4. Output Display Field
+2 pts
+Poor
+App Missing THREE or More of : 1. A relevant prediction page 2. Text box matching the number of input data 3. Button 4. Output Display Field
+8 pts
+This criterion is linked to a Learning OutcomeORAL VIVA
+4 pts
+Good
+1. Camera is ON 2. Demo of app is running correctly
+2 pts
+Fair
+Missing one of the following 1. Camera is ON 2. Demo of app is running correctly
+1 pts
+Poor
+Missing ALL of the following 1. Camera is ON 2. Demo of app is running correctly
+4 pts
+This criterion is linked to a Learning OutcomeORAL VIVA
+10 pts
+Excellent
+Answers to 5 questions exhibit understanding and/or accurately answers
+6 pts
+Good
+Answers to 4/5 questions exhibit understanding and/or accurately answers
+4 pts
+Fair
+Answers to 3/5 questions exhibit understanding and/or accurately answers
+2 pts
+Poor
+Answers to ONLY 2 or less of 5 questions exhibit understanding and/or accurately answers
+10 pts
+Total Points: 50
