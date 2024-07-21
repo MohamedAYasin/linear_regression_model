@@ -15,7 +15,7 @@ Welcome to this repository which will contain summative tasks for my ML Speciali
 - [Model Overview](#model-overview)
 - [Flutter App](#The-flutter-app)
 - [Key Features](#Key-Features)
-- - [Demo Video](#Demo-Video)
+- [Demo Video](#Demo-Video)
 - [Contributor](#contributor)
 
 ## Repository Structure
