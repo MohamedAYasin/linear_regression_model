@@ -32,6 +32,8 @@ To install the necessary dependencies for the machine learning model, navigate t
 - python run predict.py
 - The model will be saved as a .joblib file
 
+Also if you want to see the full requrements of this summative, see the above requiremenets.txt file or click on this [Requirements](https://github.com/MohamedAYasin/linear_regression_model/blob/2d3356a4321de59e5ba8488dc7af5d71cdc5479f/requirements.txt)
+
 ## Set up and Installation
 
 After setting up the Backend, run fastapi run dev main to take you to a local host.
@@ -63,12 +65,8 @@ You can test the API paltforms using Postman. Create a POST request, enter the U
 - Button to trigger diabetes risk prediction.
 - Display of predicted diabetes risk level.
 
-## Demo Video
-Here's the demo video:
-
 #  Contributor:
 
-- 
+- [Mohamed Yasin](https://github.com/mohamedAYasin/).
 
-
-
+- © 2024 All rights reserved.
