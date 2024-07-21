@@ -9,7 +9,7 @@ Welcome to this repository which will contain summative tasks for my ML Speciali
 ## Table of Contents
 
 - [Screenshots](#Screenshot-of-the-Diabetes-Prediction-Flutter-App)
-- [Repository](Structure](#repository-structure)
+- [Repository Structure](#repository-structure)
 - [Requirements](#requirements)
 - [Setup and Installation](#setup-and-installation)
 - [Model Overview](#model-overview)
