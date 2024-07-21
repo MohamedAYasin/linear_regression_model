@@ -1,1 +1,1 @@
-file
+web: gunicorn -w 4 -k uvicorn.workers.UvicornWorker diabetes-predict:app
