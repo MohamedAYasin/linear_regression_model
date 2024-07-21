@@ -12,7 +12,7 @@
 
 # Introduction
 
-Welcome to this repository which will contain summative tasks for my ML Specialization. This repository contains a summative folder that holds Three Folders: a machine learning api that predicts diabetes using datasets from scikit-learn, a Flutter app that uses the api to predict diabetes and a folder for the Colab Notebooks on Univariate linear regression and multi-variate linear regression. 
+Welcome to this repository which will contain summative tasks for my ML Specialization. This repository contains a summative folder that holds Three Folders: a machine learning api that predicts diabetes risk and using data from scikit-learn and muti-variate linear regression, a Flutter app that uses fast api to predict diabetes risk and a folder for the Colab Notebooks on Univariate linear regression and multi-variate linear regression models. 
 
 ## Repository Structure
 
