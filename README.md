@@ -13,10 +13,10 @@ Welcome to this repository which will contain summative tasks for my ML Speciali
 - [Requirements](#requirements)
 - [Setup and Installation](#setup-and-installation)
 - [Model Overview](#model-overview)
-- [Flutter App Overview](#The-flutter-app)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+- [Flutter App](#The-flutter-app)
+- [Key Features](#Key-Features)
+- - [Demo Video](#Demo-Video)
+- [Contributor](#contributor)
 
 ## Repository Structure
 
